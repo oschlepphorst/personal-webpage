@@ -15,7 +15,6 @@ function App() {
       <nav>
       <ul className="navbar-nav mr-auto">
         <li><NavLink to={'/home'} className="nav-link-home" activeClassName="selectedLink" > HOME </NavLink></li>
-        <li><NavLink to={'/contact'} className="nav-link-contact" activeClassName="selectedLink" strict>CONTACT</NavLink></li>
         <li><NavLink to={'/experience'} className="nav-link-experience" activeClassName="selectedLink" strict>EXPERIENCE</NavLink></li>
         <li><NavLink to={'/photography'} className="nav-link-photography" activeClassName="selectedLink" strict>PHOTOGRAPHY</NavLink></li>
       </ul>
@@ -23,7 +22,6 @@ function App() {
       <hr />
       <Switch>
           <Route exact path='/home' component={Home} />
-          <Route path='/contact' component={Contact} />
           <Route path='/experience' component={Experience} />
           <Route path='/photography' component={Photography} />
       </Switch>

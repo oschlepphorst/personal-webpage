@@ -33,6 +33,7 @@
 }
 
 .nav-link-home {
+  margin-right: 25px;
   color: grey;
   list-style-type: none;
   text-decoration: none;
@@ -49,14 +50,14 @@
   color: grey;
   list-style-type: none;
   text-decoration: none;
-  margin-left: 100px;
+  margin-left: 70px;
 }
 
 .nav-link-photography {
   color: grey;
   list-style-type: none;
   text-decoration: none;
-  margin-left: 100px;
+  margin-left: 90px;
 }
 
 .selectedLink, 
@@ -101,11 +102,112 @@
   font-size: 15px;
 }
 
-.footer {
-  display: flex;;
-  justify-content: center;
+.ttb {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+}
+
+.ttb-info {
+  display: flex;
+  margin-left: 125px;
+  margin-right: 100px;;
   flex-direction: column;
-  padding-top: 40%;
+}
+
+.tech-together-logo {
+  display: flex;
+  height: 109.42px;
+  margin-left: 100px;
+}
+
+.desktop-metal {
+  display: flex;
+  flex-direction: row;
+}
+
+.desktop-metal-logo {
+  display: flex;
+  width: 320px;
+  height: 320px;
+  margin-left: 45px;
+  margin-right: 10%;
+}
+
+.dm-info {
+  display: flex;
+  margin-left: 120px;
+  margin-right: 100px;
+  flex-direction: column;
+  margin-top: 130px;
+}
+
+.digital-lumens {
+  display: flex;
+  flex-direction: row;
+  margin-top: 110px;
+}
+
+.digital-lumens-logo {
+  margin-left: 100px;
+  display: flex;
+  height: 110px;
+}
+
+.dl-info {
+  display: flex;
+  margin-left: 160px;
+  margin-right: 100px;
+  flex-direction: column;
+}
+
+.ert {
+  display: flex;
+  flex-direction: row;
+}
+
+.ert-info {
+  display: flex;
+  margin-left: 120px;
+  margin-right: 100px;
+  flex-direction: column;
+  margin-top: 140px;
+}
+
+.ert-logo {
+  display: flex;
+  margin-left: 80px;
+  width: 289px;
+  height: 204px;
+  margin-right: 10%;
+  margin-top: 100px;
+}
+
+.more-stuff {
+  display: flex;
+  margin-left: 120px;
+  margin-top: 100px;
+  font-weight: 450;
+}
+
+.resume-section {
+  display: flex;
+  margin-left: 120px;
+}
+
+.website-code-section {
+  display: flex;
+  margin-left: 120px;
+}
+
+.footer {
+  display: flex;
+  padding-top: 20%;
+}
+
+.column {
+  flex: 15%;
+  padding: 1px;
 }
 
 .footer-text {
@@ -115,15 +217,16 @@
   font-weight: 200;
 }
 
-.linkedin-logo {
-  justify-content: center;
-  display: flex;
-  bottom: 0;
-  width: 3%;
-  height: 3%;
-  padding-left: 48.5%;
-  padding-bottom: 5%;
+ .linkedin-logo {
+  margin-left: 90%;
+  width: 8%;
+  height: 30%;
 }
+
+.github-logo {
+  width: 25%;
+  height: 30%;
+} 
 
 /* @keyframes App-logo-spin {
   from {
