@@ -16,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(0.0005px + 3vmin); 
+  font-size: calc(0.0005px + 5vmin); 
   color: #111111;
   font-weight: 350;
 }
@@ -26,6 +26,7 @@
   justify-content: center;
   list-style-type: none;
   margin-top: 50px;
+  font-size: calc(0.0005px + 2.5vmin);
 }
 
 .navbar-nav  > a:not(.activeLink):hover{
@@ -85,21 +86,22 @@
 .home-header-bio {
   display: flex;
   justify-content: right;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 10%;
+  margin-right: 10%;
   flex-direction: column;
 }
 
 .home-header {
   font-weight: 350;
-  font-size: 22px;
+  font-size: 28px;
 }
 
 .home-bio {
   display: flex;
   justify-content: right;
   flex-direction: column;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .ttb {
@@ -113,6 +115,7 @@
   margin-left: 125px;
   margin-right: 100px;;
   flex-direction: column;
+  font-size: 18px;
 }
 
 .tech-together-logo {
@@ -140,6 +143,7 @@
   margin-right: 100px;
   flex-direction: column;
   margin-top: 130px;
+  font-size: 17px;
 }
 
 .digital-lumens {
@@ -159,6 +163,7 @@
   margin-left: 160px;
   margin-right: 100px;
   flex-direction: column;
+  font-size: 18px;
 }
 
 .ert {
@@ -172,6 +177,7 @@
   margin-right: 100px;
   flex-direction: column;
   margin-top: 140px;
+  font-size: 18px;
 }
 
 .ert-logo {
@@ -188,16 +194,19 @@
   margin-left: 120px;
   margin-top: 100px;
   font-weight: 450;
+  font-size: 20px;
 }
 
 .resume-section {
   display: flex;
   margin-left: 120px;
+  font-size: 18px;
 }
 
 .website-code-section {
   display: flex;
   margin-left: 120px;
+  font-size: 18px;
 }
 
 .footer {
