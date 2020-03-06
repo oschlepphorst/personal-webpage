@@ -11,15 +11,16 @@ function App() {
   return (
     <Router>
     <div class="box">
-      <h2 className="App-header">OLIVIA SCHLEPPHORST</h2>
-      <nav>
-      <ul className="navbar-nav mr-auto">
-        <li><NavLink to={'/home'} className="nav-link-home" activeClassName="selectedLink" > HOME </NavLink></li>
-        <li><NavLink to={'/experience'} className="nav-link-experience" activeClassName="selectedLink" strict>EXPERIENCE</NavLink></li>
-        <li><NavLink to={'/photography'} className="nav-link-photography" activeClassName="selectedLink" strict>PHOTOGRAPHY</NavLink></li>
-      </ul>
-      </nav>
-      <hr />
+      <div className="header">
+        <h2 className="App-header">OLIVIA SCHLEPPHORST</h2>
+        <nav className="nav">
+        {/* <ul className="navbar-nav"> */}
+          <li><NavLink to={'/home'} className="nav-link-home" activeClassName="selectedLink" >HOME</NavLink></li>
+          <li><NavLink to={'/experience'} className="nav-link-experience" activeClassName="selectedLink" strict>EXPERIENCE</NavLink></li>
+          <li><NavLink to={'/photography'} className="nav-link-photography" activeClassName="selectedLink" strict>PHOTOGRAPHY</NavLink></li>
+        {/* </ul> */}
+        </nav>
+      </div>
       <Switch>
           <Route exact path='/home' component={Home} />
           <Route path='/experience' component={Experience} />
