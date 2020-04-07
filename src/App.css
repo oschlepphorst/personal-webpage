@@ -181,7 +181,10 @@
 .photo-section-header {
   font-weight: 150;
   font-size: 35px;
-  margin-left: 25%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 25%; */
   margin-bottom: 20%;
   margin-top: 5%;
   color: black;
@@ -194,7 +197,9 @@
   text-decoration: none;
   margin-top: 30px;
   margin-right: 55%;
-  margin-left: 25%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 49.5%;
 }
 
 .ttb {
@@ -378,6 +383,7 @@
 
 .footer {
   display: flex;
+  flex-direction: column;
   padding-top: 3%;
   background: black;
 }
@@ -387,23 +393,32 @@
   padding: 1px;
 }
 
-.footer-text {
+/* .footer-text {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   bottom: 0;
   font-weight: 200;
-}
+} */
 
  .linkedin-logo {
-  margin-left: 95%;
-  width: 5%;
-  height: 25%;
+  width: 2%;
+  height: 2%;
+  margin-left: 49%;
 }
 
 .github-logo {
-  width: 20%;
-  height: 25%;
+  width: 10%;
+  height: 10%;
 } 
+
+.disclaimer {
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 3%;
+  padding-bottom: 5%;
+}
 
 /* @keyframes App-logo-spin {
   from {

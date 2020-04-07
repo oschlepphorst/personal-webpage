@@ -11,10 +11,13 @@ class Footer extends Component {
                     <img className="linkedin-logo" src={linkedInLogo} alt="LinkedInLogo"></img>
                 </a>
             </div>
-            <div className="column">
+            {/* <div className="column">
                 <a href="https://github.com/oschlepphorst">
                     <img className="github-logo" src={githubLogo} alt='GithubLogo'></img>
                 </a>
+            </div> */}
+            <div className="disclaimer">
+                This is a site in progress!
             </div>
         </div>
     );
