@@ -55,19 +55,6 @@ class Experience extends Component {
             <img className="ert-logo" src={ert} alt="ERTLogo"></img>
           </div>
 
-          <div className="more-section">
-            <NavLink className="resume-button" to={resumeLink}>
-              <Button variant="outlined" renderAs="button">
-                FULL RESUME
-              </Button>
-            </NavLink>
-            <Link className="website-code-button" to={code}>
-              <Button variant="outlined" renderAs="button">
-                WEBSITE CODE
-              </Button>
-            </Link>
-          </div>
-
         </div>
     );
   }
