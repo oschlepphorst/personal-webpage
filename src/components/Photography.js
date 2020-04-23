@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import athens from './../images/athens.jpg'
 import capri from './../images/capri-rock.jpeg'
 import chairs from './../images/chairs.jpeg'
-import flower from './../images/flowah.JPG'
+import flower from './../images/flowah.jpeg'
 import mountain from './../images/mountain.jpeg'
 import rhodeIsland from './../images/rhode-island.jpeg'
 import rocks from './../images/rocks.jpeg'
