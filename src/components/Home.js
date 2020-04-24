@@ -45,7 +45,7 @@ class Home extends Component {
             <h3 className="photo-section-header">
               I love to take photos! Check out some of my favorites.
               <Link className="photo-button" to="/photography">
-              <Button variant="outlined" renderAs="button">
+              <Button className="photo-button" variant="outlined" renderAs="button">
                 PHOTOS
               </Button>
               </Link>

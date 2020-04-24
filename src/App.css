@@ -10,10 +10,6 @@
 }
 
 .App-header {
-  /* display: flex;
-  flex-direction: row;
-  align-items: left;
-  justify-content: left; */
   float: left;
   font-size: calc(0.0005px + 4vmin); 
   font-weight: 150;
@@ -69,32 +65,36 @@
 
 .container {
   background: #000 url('./images/portrait.jpeg');
+  object-fit: cover;
   background-origin: content-box;
   margin-top: 0px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   background-size: cover !important;
-  padding: 300px 0;
+  padding: 40px 0;
   color: white;
 }
 
 .text-overlay {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-weight: 150;
   font-size: 75px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
 }
 
 .under-text-overlay {
-  position: absolute;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
   top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  margin-bottom: 25%;
   font-weight: 150;
   font-size: 25px;
 }
@@ -107,7 +107,7 @@
 .home-header-bio {
   display: flex;
   flex-direction: row;
-  padding: 5%;
+  padding: 10%;
   background: rgb(232, 240, 247);
 }
 
@@ -117,9 +117,9 @@
   flex-direction: row;
   font-size: 75px;
   font-weight: 200;
+  margin: auto;
+  margin-left: 15%;
   margin-right: 20%;
-  margin-left: 20%;
-  margin-bottom: 10%;
 }
 
 .home-bio {
@@ -127,10 +127,11 @@
   justify-content: right;
   flex-direction: column;
   font-size: 18px;
-  margin-top: 7%;
+  margin: auto;
+  margin-right: 15%;
   font-weight: 200;
   line-height: 150%;
-  margin-right: 10%;
+  min-width: 200px;
 }
 
 .experience-section {
@@ -144,7 +145,7 @@
   width: 30%;
   height: 30%;
   display: flex;
-  margin-right: 12%;
+  margin-right: 20%;
 }
 
 .home-exp-info {
@@ -152,9 +153,9 @@
   flex-direction: column;
   font-size: 25px;
   font-weight: 200;
+  margin: auto;
   margin-left: 20%;
-  margin-right: 15%;
-  margin-top: 8%;
+  margin-right: 10%;
 }
 
 .exp-button {
@@ -181,9 +182,9 @@
 .photo-section-header {
   font-weight: 150;
   font-size: 35px;
-  margin-left: 25%;
+  margin: auto;
   margin-bottom: 20%;
-  margin-top: 5%;
+  margin-top: 10%;
   color: black;
 }
 
@@ -192,9 +193,10 @@
   flex-direction: column;
   list-style-type: none;
   text-decoration: none;
-  margin-top: 30px;
-  margin-right: 55%;
-  margin-left: 25%;
+  margin: auto;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
 }
 
 .ttb {
@@ -207,9 +209,9 @@
 }
 
 .ttb-info {
+  margin: auto;
+  margin-right: 17%;
   margin-left: 10%;
-  margin-right: 15%; 
-  margin-top: 5%;
   min-width: 300px;
   font-size: 18px;
   display: flex;
@@ -222,16 +224,16 @@
 .tech-together-logo {
   display: flex;
   height: 109.42px;
-  margin-left: 15%;
-  margin-top: 8%;
-  margin-bottom: 8%;
+  margin: auto;
+  margin-left: 17%;
 }
 
 .desktop-metal {
   display: flex;
   flex-direction: row;
   background: white;
-  padding: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   width: 100%;
 }
 
@@ -240,15 +242,15 @@
   flex-direction: row;
   width: 320px;
   height: 320px;
-  margin-right: 15%;
-  margin-bottom: 3%;
+  margin: auto;
+  margin-right: 17%;
 }
 
 .dm-info {
   display: flex;
-  margin-left: 10%;
+  margin: auto;
+  margin-left: 17%;
   margin-right: 10%;
-  margin-top: 5%;
   min-width: 300px;
   flex-direction: row;
   font-size: 18px;
@@ -260,28 +262,27 @@
   display: flex;
   flex-direction: row;
   background: rgb(232, 240, 247);
-  padding: 5%;
+  padding-top: 6.5%;
+  padding-bottom: 6.5%;
 }
 
 .digital-lumens-logo {
-  margin-left: 100px;
+  margin: auto;
   display: flex;
   height: 110px;
-  margin-top: 8%;
-  margin-bottom: 8%;
-  margin-left: 8%;
+  margin-left: 16%;
+  margin-right: 10%;
 }
 
 .dl-info {
   display: flex;
-  margin-left: 10%;
-  margin-right: 13%;
+  margin: auto;
+  margin-right: 17%;
   flex-direction: column;
   font-size: 18px;
   font-weight: 200;
-  line-height: 150%;
-  margin-top: 8%;
   min-width: 300px;
+  line-height: 150%;
 }
 
 .ert {
@@ -289,19 +290,19 @@
   flex-direction: row;
   background: white;
   width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .ert-info {
   display: flex;
-  margin-left: 15%;
-  margin-bottom: 12%;
-  margin-top: 5%;
+  margin: auto;
+  margin-left: 17%;
   margin-right: 10%;
   flex-direction: column;
   font-size: 18px;
   font-weight: 200;
   line-height: 150%;
-  margin-top: 13%;
   min-width: 300px;
 }
 
@@ -309,30 +310,10 @@
   display: flex;
   width: 289px;
   height: 204px;
-  margin-right: 15%;
-  margin-top: 11%;
+  margin: auto;
+  margin-right: 17%;
 }
 
-.more-section {
-  display: flex;
-  flex-direction: row;
-  background: rgb(232, 240, 247);
-  padding: 5%;
-}
-
-.resume-button {
-  list-style-type: none;
-  text-decoration: none;
-  margin-top: 30px;
-  margin-left: 30%;
-}
-
-.website-code-button {
-  list-style-type: none;
-  text-decoration: none;
-  margin-top: 30px;
-  margin-left: 20%;
-}
 
 .photography-page {
   background: rgb(232, 240, 247);
@@ -349,7 +330,7 @@
 .photo-row1 {
   display: flex;
   flex-direction: row;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .photo-row2, .photo-row3 {
@@ -378,6 +359,7 @@
 
 .footer {
   display: flex;
+  flex-direction: column;
   padding-top: 3%;
   background: black;
 }
@@ -387,23 +369,58 @@
   padding: 1px;
 }
 
-.footer-text {
+/* .footer-text {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   bottom: 0;
   font-weight: 200;
-}
+} */
 
  .linkedin-logo {
-  margin-left: 95%;
-  width: 5%;
-  height: 25%;
+  width: 2%;
+  height: 2%;
+  margin-left: 49%;
 }
 
 .github-logo {
-  width: 20%;
-  height: 25%;
+  width: 10%;
+  height: 10%;
 } 
+
+.resume {
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 2%;
+  padding-bottom: 1%;
+}
+
+.resume-link {
+  color: white;
+}
+
+.disclaimer {
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+
+.backlog-link {
+  color: white;
+}
+
+.website-code {
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  padding-bottom: 1%;
+}
+
+.code-link {
+  color: white;
+}
 
 /* @keyframes App-logo-spin {
   from {
