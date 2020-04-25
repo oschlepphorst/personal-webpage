@@ -183,73 +183,6 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
-  .App-header {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
-  .nav {
-    margin: auto;
-  }
-  .nav-link-home {
-    margin:auto;
-  }
-  .nav-link-experience, .nav-link-photography {
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-  .header {
-    display: flex;
-    flex-direction: column;
-  }
-  .container {
-      background: black url('./images/portrait.jpeg');
-      background-repeat: no-repeat;
-      display: flex;
-      flex-direction: column;
-      color: white;
-  }
-  .home-header-bio, .home-bio {
-    margin: auto;
-    flex-direction: column;
-    text-align: center;
-  }
-  .about-header {
-    margin: auto;
-    margin-bottom: 3%;
-    font-size: calc(0.0002px + 7vmin);
-  }
-  .experience-section, .home-exp-info {
-    flex-direction: column;
-    margin: auto;
-    text-align: center;
-  }
-  .ttb-me {
-    margin: auto;
-    margin-top: 10%;
-    display: flex;
-    width: 150px;
-    height: 150px;
-  }
-  .photo-section {
-    background: #000 url('./images/rhode-island.jpeg');
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 20%;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0;
-    color: white;
-  }
-  .photo-section-header {
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-}
-
 .ttb {
   display: flex;
   flex-direction: row;
@@ -365,17 +298,10 @@
   margin-right: 17%;
 }
 
-
 .photography-page {
   background: rgb(232, 240, 247);
   display: flex;
   flex-direction: column;
-}
-
-.photography-info {
-  display: flex;
-  flex-direction: row;
-  color: white;
 }
 
 .photo-row1 {
@@ -407,6 +333,137 @@
   height: 28%;
   margin-left: 1%;
 } 
+
+@media screen and (max-width: 600px) {
+  .App-header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(0.0002px + 5.5vmin);
+  }
+  .nav {
+    margin: auto;
+    font-size: calc(0.0005px + 3vmin);
+  }
+  .nav-link-home {
+    margin:auto;
+  }
+  .nav-link-experience, .nav-link-photography {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+      background: black url('./images/portrait.jpeg');
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      color: white;
+  }
+  .home-header-bio, .home-bio {
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-header {
+    margin: auto;
+    margin-bottom: 3%;
+    font-size: calc(0.0002px + 7vmin);
+  }
+  .experience-section, .home-exp-info {
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+  .ttb-me {
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    width: 150px;
+    height: 150px;
+  }
+  .photo-section {
+    background: #000 url('./images/rhode-island.jpeg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    color: white;
+  }
+  .photo-section-header {
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .ttb, .tech-together-logo, .ttb-info,
+  .desktop-metal, .desktop-metal-logo, .dm-info,
+  .digital-lumens, .digital-lumens-logo, .dl-info,
+  .ert, .ert-logo, .ert-info {
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+  }
+  .ttb-info {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .tech-together-logo {
+    height: 75px;
+    margin-top: 8%;
+  }
+  .dm-info {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+  }
+  .desktop-metal-logo {
+    width: 220px;
+    height: 220px;
+  }
+  .digital-lumens-logo {
+    height: 70px; 
+    margin-top: 8%;
+  }
+  .dl-info {
+    margin-left:8%;
+    margin-right: 8%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+  }
+  .ert-logo {
+    width: 198px;
+    height: 140px;
+    margin-top: 8%;
+  }
+  .ert-info {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+  }
+  .photo-row1, .photo-row2, .photo-row3 {
+    flex-direction: column;
+    margin: auto;
+  }
+  .capri-img, .athens-img, .chairs-img, .florence-img, .flower-img, .mountain-img,
+  .rocks-img, .santorini-img, .rhode-island-img {
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+  }
+  .rhode-island-img {
+    margin-bottom: 5%;
+  }
+}
 
 .footer {
   display: flex;
