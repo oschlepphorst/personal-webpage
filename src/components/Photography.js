@@ -8,6 +8,9 @@ import rhodeIsland from './../images/rhode-island.jpeg'
 import rocks from './../images/rocks.jpeg'
 import santorini from './../images/santorini.jpeg'
 import florence from './../images/florence.jpg'
+import vienna from './../images/vienna.jpeg'
+import paris from './../images/montmarte.jpeg'
+import boston from './../images/boston.jpeg'
 
 
 class Photography extends Component {
@@ -113,6 +116,40 @@ class Photography extends Component {
                 </div>
               </div>
             </div>
+
+          </div>
+
+          <div className="photo-row-4">
+
+          <div className="img-container">
+              <div className="content">
+                <div className="content-overlay"></div>
+                <img className="paris-img" src={paris} alt="Paris"></img>
+                <div className="content-details fade-in-bottom">
+                  <h3 className="img-text">Paris, France</h3>
+                </div>
+              </div>
+          </div>
+
+          <div className="img-container">
+              <div className="content">
+                <div className="content-overlay"></div>
+                <img className="vienna-img" src={vienna} alt="Vienna"></img>
+                <div className="content-details fade-in-bottom">
+                  <h3 className="img-text">Vienna, Austria</h3>
+                </div>
+              </div>
+          </div>
+
+          <div className="img-container">
+              <div className="content">
+                <div className="content-overlay"></div>
+                <img className="boston-img" src={boston} alt="Boston"></img>
+                <div className="content-details fade-in-bottom">
+                  <h3 className="img-text">Boston</h3>
+                </div>
+              </div>
+          </div>
 
           </div>
           
