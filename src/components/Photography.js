@@ -18,8 +18,6 @@ class Photography extends Component {
     return (
         <div className="photography-page">
 
-          <div class="photo-row1">
-
             <div className="img-container">
               <div class="content">
                 <div class="content-overlay"></div>
@@ -33,9 +31,9 @@ class Photography extends Component {
             <div className="img-container">
               <div className="content">
                 <div className="content-overlay"></div>
-                <img className="athens-img" src={athens} alt="Athens"></img>
+                <img className="paris-img" src={paris} alt="Paris"></img>
                 <div className="content-details fade-in-bottom">
-                  <h3 className="img-text">Athens, Greece</h3>
+                  <h3 className="img-text">Paris, France</h3>
                 </div>
               </div>
             </div>
@@ -49,9 +47,6 @@ class Photography extends Component {
                 </div>
               </div>
             </div>
-            
-          </div>
-          <div class="photo-row2">
 
             <div className="img-container">
               <div className="content">
@@ -83,10 +78,6 @@ class Photography extends Component {
               </div>
             </div>
 
-            </div>
-
-          <div class="photo-row3">
-
             <div className="img-container">
                 <div className="content">
                   <div className="content-overlay"></div>
@@ -117,41 +108,35 @@ class Photography extends Component {
               </div>
             </div>
 
-          </div>
-
-          <div className="photo-row-4">
-
-          <div className="img-container">
-              <div className="content">
-                <div className="content-overlay"></div>
-                <img className="paris-img" src={paris} alt="Paris"></img>
-                <div className="content-details fade-in-bottom">
-                  <h3 className="img-text">Paris, France</h3>
+            <div className="img-container">
+                <div className="content">
+                  <div className="content-overlay"></div>
+                  <img className="athens-img" src={athens} alt="Athens"></img>
+                  <div className="content-details fade-in-bottom">
+                    <h3 className="img-text">Athens, Greece</h3>
+                  </div>
                 </div>
               </div>
-          </div>
 
-          <div className="img-container">
-              <div className="content">
-                <div className="content-overlay"></div>
-                <img className="vienna-img" src={vienna} alt="Vienna"></img>
-                <div className="content-details fade-in-bottom">
-                  <h3 className="img-text">Vienna, Austria</h3>
+            <div className="img-container">
+                <div className="content">
+                  <div className="content-overlay"></div>
+                  <img className="vienna-img" src={vienna} alt="Vienna"></img>
+                  <div className="content-details fade-in-bottom">
+                    <h3 className="img-text">Vienna, Austria</h3>
+                  </div>
                 </div>
-              </div>
-          </div>
+            </div>
 
-          <div className="img-container">
-              <div className="content">
-                <div className="content-overlay"></div>
-                <img className="boston-img" src={boston} alt="Boston"></img>
-                <div className="content-details fade-in-bottom">
-                  <h3 className="img-text">Boston</h3>
+            <div className="img-container">
+                <div className="content">
+                  <div className="content-overlay"></div>
+                  <img className="boston-img" src={boston} alt="Boston"></img>
+                  <div className="content-details fade-in-bottom">
+                    <h3 className="img-text">Boston</h3>
+                  </div>
                 </div>
-              </div>
-          </div>
-
-          </div>
+            </div>
           
         </div>
     );
