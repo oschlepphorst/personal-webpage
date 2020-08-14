@@ -4,13 +4,13 @@
   pointer-events: none;
 } */
 
-.box {
+/* .box {
   width: 300;
   height: 700;
-}
+} */
 
 .App-header {
-  float: left;
+  /* float: left; */
   font-size: calc(0.0005px + 4vmin); 
   font-weight: 150;
   margin-left: 3%;
@@ -18,15 +18,24 @@
 
 .header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .nav {
   display: flex;
+  /* justify-content: space-between; */
+  /* margin-left: auto; */
+  width: 50%;
   margin: auto;
-  margin-right: 7%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  /* float: left; */
+  /* overflow: auto; */
+  /* float: right; */
+  /* margin: auto;
+  margin-right: 8%;
   margin-top: 3%;
-  list-style-type: none;
+  list-style-type: none; */
   font-size: calc(0.0005px + 2.5vmin);
   font-weight: 250;
 }
@@ -36,18 +45,21 @@
   color:black;
 }
 
-.nav-link-home, .nav-link-experience, .nav-link-photography {
+.nav-link-home, .nav-link-experience, .nav-link-photography, .nav-link-projects {
   color: grey;
   list-style-type: none;
   text-decoration: none;
-  margin-left: 55%;
-  margin-right: 55%;
+  float: right;
+  /* padding-right: 5%; */
+  width: 25%;
+  /* margin-right: 5%; */
 }
 
 .selectedLink, 
 .nav-link-home:hover, 
 .nav-link-experience:hover, 
-.nav-link-photography:hover {
+.nav-link-photography:hover,
+.nav-link-projects:hover {
   color: black;
 }
 

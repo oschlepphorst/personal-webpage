@@ -5,6 +5,7 @@ import Experience from './components/Experience';
 import './App.css';
 import Photography from './components/Photography';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -13,14 +14,16 @@ function App() {
       <div className="header">
         <h2 className="App-header">OLIVIA SCHLEPPHORST</h2>
         <nav className="nav">
-          <li><Link to={'/'} className="nav-link-home" activeClassName="selectedLink" >HOME</Link></li>
-          <li><Link to={'/experience'} className="nav-link-experience" activeClassName="selectedLink" strict>EXPERIENCE</Link></li>
-          <li><Link to={'/photography'} className="nav-link-photography" activeClassName="selectedLink" strict>PHOTOGRAPHY</Link></li>
+          <NavLink to={'/'} className="nav-link-home" activeClassName="selectedLink" exact>HOME</NavLink>
+          <NavLink to={'/experience'} className="nav-link-experience" activeClassName="selectedLink" exact>EXPERIENCE</NavLink>
+          <NavLink to={'/projects'} className="nav-link-projects" activeClassName="selectedLink" exact>PROJECTS</NavLink>
+          <NavLink to={'/photography'} className="nav-link-photography" activeClassName="selectedLink" exact>PHOTOGRAPHY</NavLink>
         </nav>
       </div>
       <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/experience' component={Experience} />
+          <Route path='/projects' component={Projects} />
           <Route path='/photography' component={Photography} />
       </Switch>
       <Footer />
