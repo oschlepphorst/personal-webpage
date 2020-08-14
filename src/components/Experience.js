@@ -4,14 +4,10 @@ import desktopMetal from './../desktop-metal.png'
 import digitalLumens from './../digital-lumens.png'
 import ert from './../ert.png'
 import resume from './../resume.pdf'
-import Button from '@material-ui/core/Button';
-import { BrowserRouter as Router, Switch, Route, Link, NavLink } from 'react-router-dom';
 
 class Experience extends Component {
   render() {
     var link = <a href="https://techtogether.io/">here.</a>
-    var resumeLink = <a href={resume} target="_blank">resume</a>
-    var code = <a href="https://github.com/oschlepphorst/personal-webpage">code</a> 
     return (
         <div className="experience-page">
 

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link, NavLink } from 'react-router-dom';
-import homePagePortrait from './../home-page-portrait.png'
-import portrait from './../images/portrait.jpeg'
 import meAtTTB from './../images/ttb-me.png'
 import Button from '@material-ui/core/Button';
 

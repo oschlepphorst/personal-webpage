@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import linkedInLogo from './../linkedin.png'
 import resume from './../resume.pdf'
-import githubLogo from './../github.svg'
 
 class Footer extends Component {
   render() {
-    var resumeLink = <a className="resume-link"href={resume} target="_blank">resume</a>
+    var resumeLink = <a className="resume-link"href={resume} >resume</a>
     var code = <a className="code-link" href="https://github.com/oschlepphorst/personal-webpage">code</a> 
     var backlog = <a className="backlog-link" href="https://trello.com/b/bOAavcUO/personal-webpage-to-do">backlog</a>
     return (
