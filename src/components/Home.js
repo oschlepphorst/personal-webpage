@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link, NavLink } from 'react-router-dom';
-import meAtTTB from './../images/ttb-me.png'
+import { BrowserRouter as Route, Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
+import gradPic from './../images/grad-pic.png';
 
 class Home extends Component {
   render() {
@@ -21,8 +21,8 @@ class Home extends Component {
               About Me
             </h3>
             <p className="home-bio">
-            I'm currently in my fifth year at Northeastern University, pursuing a Bachelor's of 
-            Science degree in Computer Science and Mathematics, and set to graduate this May 2020. I am a Massachusetts 
+            I just graduated in May from Northeastern University with a Bachelor's of 
+            Science degree in Computer Science and Mathematics, and am now pursuing a career in software engineering! I am a Massachusetts 
             native, born in the small town of Groton. I currently live in Boston and absolutely love it. Besides coding, 
             I enjoy photography, cooking, traveling, hanging out with friends, and being outside. Enjoy my webpage!
             </p>
@@ -36,7 +36,7 @@ class Home extends Component {
               </Button>
             </Link>
             </p>
-            <img className="ttb-me" src={meAtTTB} alt="Me at TTB"></img>   
+            <img className="grad-pic" src={gradPic} alt="Grad picture"></img>   
           </div>
 
           <div className="photo-section">

@@ -13,7 +13,7 @@
   /* float: left; */
   font-size: calc(0.0005px + 4vmin); 
   font-weight: 150;
-  margin-left: 3%;
+  margin-left: 1%;
 }
 
 .header {
@@ -27,7 +27,7 @@
   /* margin-left: auto; */
   width: 50%;
   margin: auto;
-  margin-top: 1%;
+  margin-top: 0.5%;
   margin-bottom: 1%;
   /* float: left; */
   /* overflow: auto; */
@@ -136,7 +136,7 @@
   padding: 5%;
 }
 
-.ttb-me {
+.grad-pic {
   width: 30%;
   height: 30%;
   display: flex;
