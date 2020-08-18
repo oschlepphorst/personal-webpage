@@ -30,9 +30,10 @@ class Experience extends Component {
           <div className="desktop-metal">
               <p className="dm-info">
                 In 2019 I completed a six month software development co-op at Desktop Metal, a metal 3D printing system company 
-                located in Burlington, MA. I helped improve the accuracy of the production printer PLC using TypeScript and React, and I also developed 
-                and moderated a dynamic HTML report in R of printer data and integrated with Slack, which was presented to customers. In this co-op
-                I followed an agile development methodology, and I also worked with other teams to specify requirements.
+                located in Burlington, MA. I helped improve the accuracy of the production printer PLC simulator using TypeScript and React, 
+                and I also developed and moderated a dynamic HTML report in R of printer data and integrated with Slack, which was presented 
+                to customers. In this co-op
+                I followed an agile development methodology, and practiced cross team collaboration.
               </p>
             <img className="desktop-metal-logo" src={desktopMetal} alt="DesktopMetalLogo"></img>
           </div>
