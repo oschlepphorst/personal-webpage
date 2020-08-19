@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Route, Link } from 'react-router-dom';
+import { BrowserRouter as Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import gradPic from './../images/grad-pic.png';
 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import techTogether from './../techtogether.png';
 import dsProject from './../ds-project.png';
 import graphicsVid from './../cs-project-video.mp4';
 

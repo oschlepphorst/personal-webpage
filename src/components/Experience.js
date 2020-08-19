@@ -3,7 +3,6 @@ import techTogether from './../techtogether.png'
 import desktopMetal from './../desktop-metal.png'
 import digitalLumens from './../digital-lumens.png'
 import ert from './../ert.png'
-import resume from './../resume.pdf'
 
 class Experience extends Component {
   render() {

@@ -49,7 +49,7 @@
   color: grey;
   list-style-type: none;
   text-decoration: none;
-  float: right;
+  /* float: right; */
   /* padding-right: 5%; */
   width: 25%;
   /* margin-right: 5%; */
@@ -454,7 +454,7 @@
     justify-content: center;
     font-size: calc(0.0002px + 5.5vmin);
   }
-  .nav {
+  /* .nav {
     margin: auto;
     font-size: calc(0.0005px + 3vmin);
   }
@@ -464,11 +464,11 @@
   .nav-link-experience, .nav-link-photography {
     margin-left: 15%;
     margin-right: 15%;
-  }
-  .header {
+  } */
+  /* .header {
     display: flex;
     flex-direction: column;
-  }
+  } */
   .container {
       background: black url('./images/portrait.jpeg');
       background-repeat: no-repeat;
@@ -486,7 +486,7 @@
     margin-bottom: 3%;
     font-size: calc(0.0002px + 7vmin);
   }
-  .experience-section, .home-exp-info {
+   .home-exp-info {
     flex-direction: column;
     margin: auto;
     text-align: center;
@@ -516,7 +516,8 @@
   .ttb, .tech-together-logo, .ttb-info,
   .desktop-metal, .desktop-metal-logo, .dm-info,
   .digital-lumens, .digital-lumens-logo, .dl-info,
-  .ert, .ert-logo, .ert-info {
+  .ert, .ert-logo, .ert-info, .cancer-project, .graphics-project,
+  .cancer-project-pic, .graphics-vid {
     margin: auto;
     text-align: center;
     flex-direction: column;
