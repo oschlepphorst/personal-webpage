@@ -1,0 +1,48 @@
+.ttb, .tech-together-logo, .ttb-info,
+  .desktop-metal, .desktop-metal-logo, .dm-info,
+  .digital-lumens, .digital-lumens-logo, .dl-info,
+  .ert, .ert-logo, .ert-info, .cancer-project, .graphics-project,
+  .cancer-project-pic, .graphics-vid {
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+  }
+  .ttb-info {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .tech-together-logo {
+    height: 75px;
+    margin-top: 8%;
+  }
+  .dm-info {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+  }
+  .desktop-metal-logo {
+    width: 220px;
+    height: 220px;
+  }
+  .digital-lumens-logo {
+    height: 70px; 
+    margin-top: 8%;
+  }
+  .dl-info {
+    margin-left:8%;
+    margin-right: 8%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+  }
+  .ert-logo {
+    width: 198px;
+    height: 140px;
+    margin-top: 8%;
+  }
+  .ert-info {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+  }

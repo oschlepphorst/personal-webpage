@@ -160,7 +160,7 @@
 }
 
 .photo-section {
-  background: #000 url('./images/rhode-island.jpeg');
+  background: #000 url('./components/Photography/photos/rhode-island.jpeg');
   background-origin: content-box;
   margin-top: 0px;
   background-repeat: no-repeat;
@@ -382,70 +382,6 @@
   overflow: hidden;
 }
 
-.capri-img, .athens-img, .chairs-img, .florence-img,
-.flower-img, .mountain-img, .rocks-img, .santorini-img,
-.rhode-island-img, .vienna-img, .paris-img, .boston-img {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.content .content-overlay {
-  background: rgba(0,0,0,0.7);
-  position: absolute;
-  height: 99%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
-}
-
-.content:hover .content-overlay{
-  opacity: 1;
-}
-
-.content-details {
-  position: absolute;
-  text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 100%;
-  top: 80%;
-  left: 50%;
-  opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.content:hover .content-details{
-  top: 50%;
-  left: 50%;
-  opacity: 1;
-}
-
-.content-details h3{
-  color: #fff;
-  font-weight: 300;
-  letter-spacing: 0.15em;
-  margin-bottom: 0.5em;
-  text-transform: uppercase;
-}
-
-.fade-in-bottom{
-  top: 80%;
-}
-
-
 @media screen and (max-width: 600px) {
   .App-header {
     display: flex;
@@ -499,7 +435,7 @@
     height: 150px;
   }
   .photo-section {
-    background: #000 url('./images/rhode-island.jpeg');
+    background: #000 url('./components/Photography/photos/rhode-island.jpeg');
     background-repeat: no-repeat;
     width: 100%;
     height: 20%;
@@ -513,54 +449,7 @@
     margin-left: 10%;
     margin-right: 10%;
   }
-  .ttb, .tech-together-logo, .ttb-info,
-  .desktop-metal, .desktop-metal-logo, .dm-info,
-  .digital-lumens, .digital-lumens-logo, .dl-info,
-  .ert, .ert-logo, .ert-info, .cancer-project, .graphics-project,
-  .cancer-project-pic, .graphics-vid {
-    margin: auto;
-    text-align: center;
-    flex-direction: column;
-  }
-  .ttb-info {
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 8%;
-    margin-bottom: 8%;
-  }
-  .tech-together-logo {
-    height: 75px;
-    margin-top: 8%;
-  }
-  .dm-info {
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 8%;
-  }
-  .desktop-metal-logo {
-    width: 220px;
-    height: 220px;
-  }
-  .digital-lumens-logo {
-    height: 70px; 
-    margin-top: 8%;
-  }
-  .dl-info {
-    margin-left:8%;
-    margin-right: 8%;
-    margin-top: 10%;
-    margin-bottom: 8%;
-  }
-  .ert-logo {
-    width: 198px;
-    height: 140px;
-    margin-top: 8%;
-  }
-  .ert-info {
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 8%;
-  }
+  
   .photo-row1, .photo-row2, .photo-row3 {
     flex-direction: column;
     margin: auto;
@@ -576,61 +465,6 @@
   .rhode-island-img {
     margin-bottom: 5%;
   }
-}
-
-.footer {
-  display: flex;
-  margin: auto;
-  flex-direction: column;
-  padding-top: 3%;
-  background: black;
-}
-
-.column {
-  flex: 15%;
-  padding: 1px;
-}
-
- .linkedin-logo {
-  margin: auto;
-  width: 30px;
-  height: 30px;
-  margin-left: 49%;
-}
-
-.github-logo {
-  width: 10%;
-  height: 10%;
-} 
-
-.resume {
-  color: white;
-  text-align: center;
-  flex-direction: column;
-  margin-top: 2%;
-  padding-bottom: 1%;
-}
-
-.resume-link {
-  color: white;
-}
-
-.disclaimer {
-  color: white;
-  text-align: center;
-  flex-direction: column;
-  padding-bottom: 3%;
-}
-
-.backlog-link {
-  color: white;
-}
-
-.website-code {
-  color: white;
-  text-align: center;
-  flex-direction: column;
-  padding-bottom: 1%;
 }
 
 .code-link {

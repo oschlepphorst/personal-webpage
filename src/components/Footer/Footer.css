@@ -1,0 +1,55 @@
+.footer {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    padding-top: 3%;
+    background: black;
+}
+
+.column {
+    flex: 15%;
+    padding: 1px;
+}
+
+.linkedin-logo {
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    margin-left: 49%;
+}
+  
+.github-logo {
+    width: 10%;
+    height: 10%;
+} 
+  
+.resume {
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 2%;
+    padding-bottom: 1%;
+}
+  
+.resume-link {
+    color: white;
+}
+  
+.disclaimer {
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 3%;
+}
+  
+.backlog-link {
+    color: white;
+}
+  
+.website-code {
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 1%;
+}
+
