@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
-import gradPic from './../images/grad-pic.png';
+import gradPic from './grad-pic.png';
+import './Home.css'
 
 class Home extends Component {
   render() {
@@ -12,7 +13,7 @@ class Home extends Component {
               Hi! I'm Olivia.
             </div>
             <div className="under-text-overlay">
-              ~Student and software developer~
+              ~Software Engineer~
             </div>
           </div>
 

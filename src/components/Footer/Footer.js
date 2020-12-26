@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import linkedInLogo from './../../linkedin.png';
-import resume from './../../resume.pdf';
+import linkedInLogo from './linkedin.png';
+import resume from './resume.pdf';
 import './Footer.css';
 
 class Footer extends Component {

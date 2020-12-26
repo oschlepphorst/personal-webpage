@@ -1,3 +1,123 @@
+.ttb {
+  display: flex;
+  flex-direction: row;
+  background: rgb(232, 240, 247);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+}
+
+.ttb-info {
+  margin: auto;
+  margin-right: 17%;
+  margin-left: 10%;
+  min-width: 300px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 150%;
+}
+
+.tech-together-logo {
+  display: flex;
+  margin: auto;
+  margin-left: 17%;
+}
+
+.tech-together-logo {
+  height: 109.42px;
+}
+
+.desktop-metal {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+}
+
+.desktop-metal-logo {
+  display: flex;
+  flex-direction: row;
+  width: 320px;
+  height: 320px;
+  margin: auto;
+  margin-right: 17%;
+}
+
+.dm-info {
+  display: flex;
+  margin: auto;
+  margin-left: 17%;
+  margin-right: 10%;
+  min-width: 300px;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 150%;
+}
+
+.digital-lumens {
+  display: flex;
+  flex-direction: row;
+  background: rgb(232, 240, 247);
+  padding-top: 6.5%;
+  padding-bottom: 6.5%;
+}
+
+.digital-lumens-logo {
+  margin: auto;
+  display: flex;
+  height: 110px;
+  margin-left: 16%;
+  margin-right: 10%;
+}
+
+.dl-info {
+  display: flex;
+  margin: auto;
+  margin-right: 17%;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 200;
+  min-width: 300px;
+  line-height: 150%;
+}
+
+.ert {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.ert-info {
+  display: flex;
+  margin: auto;
+  margin-left: 17%;
+  margin-right: 10%;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 150%;
+  min-width: 300px;
+}
+
+.ert-logo {
+  display: flex;
+  width: 289px;
+  height: 204px;
+  margin: auto;
+  margin-right: 17%;
+}
+
+
+@media screen and (max-width: 600px) {
 .ttb, .tech-together-logo, .ttb-info,
   .desktop-metal, .desktop-metal-logo, .dm-info,
   .digital-lumens, .digital-lumens-logo, .dl-info,
@@ -46,3 +166,4 @@
     margin-right: 8%;
     margin-top: 8%;
   }
+}

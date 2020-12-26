@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import Experience from './components/Experience/Experience';
 import './App.css';
 import Photography from './components/Photography/Photography';
 import Footer from './components/Footer/Footer';
-import Projects from './components/Projects';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (

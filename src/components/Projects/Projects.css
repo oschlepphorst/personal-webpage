@@ -1,0 +1,73 @@
+.cancer-project {
+    display: flex;
+    flex-direction: row;
+    background: rgb(232, 240, 247);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+.cancer-project-info, .graphics-project-info {
+    margin: auto;
+    margin-right: 17%;
+    margin-left: 10%;
+    min-width: 300px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 150%;
+}
+  
+  .cancer-project-info {
+    flex-direction: column;
+    line-height: 10%;
+}
+  
+  .graphics-project-info {
+    flex-direction: column;
+    line-height: 10%;
+}
+
+.cancer-project-pic, .graphics-vid {
+    display: flex;
+    margin: auto;
+    margin-left: 17%;
+}
+  
+.graphics-vid {
+    width: 23%;
+}
+
+.cancer-project-pic {
+    height: 109.42px;
+}
+
+.graphics-project {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+}
+  
+.graphics-project {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+  
+.technologies {
+    font-style: italic;
+    line-height: 110%;
+}
+  
+.project-header {
+    font-weight: 300;
+    line-height: 110%;
+}
+  
+.project-description {
+    line-height: 140%;
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import dsProject from './../ds-project.png';
-import graphicsVid from './../cs-project-video.mp4';
+import dsProject from './ds-project.png';
+import graphicsVid from './cs-project-video.mp4';
+import './Projects.css';
 
 class Projects extends Component {
 

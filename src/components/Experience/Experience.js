@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import techTogether from './../../techtogether.png'
-import desktopMetal from './../../desktop-metal.png'
-import digitalLumens from './../../digital-lumens.png'
-import ert from './../../ert.png'
+import techTogether from './logos/techtogether.png'
+import desktopMetal from './logos/desktop-metal.png'
+import digitalLumens from './logos/digital-lumens.png'
+import ert from './logos/ert.png'
 import './Experience.css';
 
 class Experience extends Component {
